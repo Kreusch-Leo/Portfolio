@@ -1,4 +1,4 @@
-import { Github, Linkedin} from 'lucide-react';
+import { Github, Linkedin, Instagram} from 'lucide-react';
 
 const SocialButtons = () => {
     return (
@@ -7,11 +7,14 @@ const SocialButtons = () => {
               <span>Download CV</span>
             </button>
 
-            <a href="#" className="p-3 bg-[#1a1a1a] hover:bg-[#252525] border border-gray-800 rounded-full transition-all duration-300 hover:text-blue-400">
+            <a href="https://github.com/Kreusch-Leo/Portfolio" target="_blank" rel="noopener noreferrer" className="p-3 bg-[#1a1a1a] hover:bg-[#252525] border border-gray-800 rounded-full transition-all duration-300 hover:text-blue-400">
               <Github size={20} />
             </a>
-            <a href="#" className="p-3 bg-[#1a1a1a] hover:bg-[#252525] border border-gray-800 rounded-full transition-all duration-300 hover:text-blue-400">
+            <a href="https://www.linkedin.com/in/leonardo-kreusch-a657452b4" target="_blank" rel="noopener noreferrer" className="p-3 bg-[#1a1a1a] hover:bg-[#252525] border border-gray-800 rounded-full transition-all duration-300 hover:text-blue-400">
               <Linkedin size={20} />
+            </a>
+            <a href="https://www.instagram.com/kreusch_leo/" target="_blank" rel="noopener noreferrer" className="p-3 bg-[#1a1a1a] hover:bg-[#252525] border border-gray-800 rounded-full transition-all duration-300 hover:text-blue-400">
+              <Instagram size={20} />
             </a>
           </div>
     )
