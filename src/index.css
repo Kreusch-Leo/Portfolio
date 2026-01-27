@@ -1,0 +1,94 @@
+/* =========================
+   Fonts
+   ========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+/* =========================
+   Tailwind
+   ========================= */
+
+@import "tailwindcss";
+
+/* =========================
+   Custom Themes
+   ========================= */
+
+@theme {
+--color-beige-50: #f7faeb;
+--color-beige-100: #eff5d6;
+--color-beige-200: #dfeaae;
+--color-beige-300: #cfe085;
+--color-beige-400: #bfd55d;
+--color-beige-500: #afcb34;
+--color-beige-600: #8ca22a;
+--color-beige-700: #697a1f;
+--color-beige-800: #465115;
+--color-beige-900: #23290a;
+--color-beige-950: #191c07;
+
+--color-tea-green-50: #f5fbea;
+--color-tea-green-100: #eaf6d5;
+--color-tea-green-200: #d6edab;
+--color-tea-green-300: #c1e481;
+--color-tea-green-400: #addb57;
+--color-tea-green-500: #98d22d;
+--color-tea-green-600: #7aa824;
+--color-tea-green-700: #5b7e1b;
+--color-tea-green-800: #3d5412;
+--color-tea-green-900: #1e2a09;
+--color-tea-green-950: #151d06;
+
+--color-chocolate-brown-50: #faf2ea;
+--color-chocolate-brown-100: #f6e4d5;
+--color-chocolate-brown-200: #edcaab;
+--color-chocolate-brown-300: #e3af82;
+--color-chocolate-brown-400: #da9558;
+--color-chocolate-brown-500: #d17a2e;
+--color-chocolate-brown-600: #a76225;
+--color-chocolate-brown-700: #7d491c;
+--color-chocolate-brown-800: #543112;
+--color-chocolate-brown-900: #2a1809;
+--color-chocolate-brown-950: #1d1106;
+
+--color-olive-leaf-50: #fbffe6;
+--color-olive-leaf-100: #f8fecd;
+--color-olive-leaf-200: #f0fd9b;
+--color-olive-leaf-300: #e9fd68;
+--color-olive-leaf-400: #e2fc36;
+--color-olive-leaf-500: #dafb04;
+--color-olive-leaf-600: #afc903;
+--color-olive-leaf-700: #839702;
+--color-olive-leaf-800: #576402;
+--color-olive-leaf-900: #2c3201;
+--color-olive-leaf-950: #1f2301;
+
+--color-dark-coffee-50: #fef3e6;
+--color-dark-coffee-100: #fee7cd;
+--color-dark-coffee-200: #fccf9c;
+--color-dark-coffee-300: #fbb76a;
+--color-dark-coffee-400: #fa9f38;
+--color-dark-coffee-500: #f98806;
+--color-dark-coffee-600: #c76c05;
+--color-dark-coffee-700: #955104;
+--color-dark-coffee-800: #633603;
+--color-dark-coffee-900: #321b01;
+--color-dark-coffee-950: #231301;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
