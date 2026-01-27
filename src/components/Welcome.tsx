@@ -54,13 +54,13 @@ const Welcome = () => {
 				transition: { duration: 0.5 },
 			});
 
-			await new Promise((r) => setTimeout(r, 200));
+			await new Promise((r) => setTimeout(r, 500));
 
 			// Fade everything out
 			await container.start({
 				opacity: 0,
 				y: -20,
-				transition: { duration: 1 },
+				transition: { duration: 5 },
 			});
 		};
 
@@ -75,7 +75,7 @@ const Welcome = () => {
 		>
 			<TypeLine text="Hello, there! I'm Leo" controls={first} />
 			<TypeLine
-				text="and I just started my career!"
+				text="Welcome to my portfolio!"
 				controls={second}
 				initialOpacity={0}
 			/>

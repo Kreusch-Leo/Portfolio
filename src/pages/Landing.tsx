@@ -10,19 +10,19 @@ const Landing = () => {
         <NavBar />
 
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col md:flex-row items-center justify-between px-8 md:px-16 mt-10 md:mt-20 max-w-7xl mx-auto">
+      <main className="relative z-10 flex flex-col md:flex-row items-center justify-between px-8 md:px-16 mt-10 md:mt-20 max-w-7xl mx-auto bg-black/5 backdrop-blur-[2px] border border-white/10 rounded-2xl py-12 md:py-16">
         
         {/* Left Column: Text */}
         <div className="flex-1 space-y-6 md:space-y-8 text-center md:text-left">
           <div>
             <h2 className="text-lg md:text-xl font-light tracking-[0.2em] text-gray-200 mb-2">
-              h e l l o !
+              H e l l o !
             </h2>
             <h1 className="text-6xl md:text-8xl font-bold text-white mb-4">
               I'm Leo
             </h1>
-            <p className="text-blue-500 text-lg md:text-xl font-mono tracking-widest lowercase">
-              s o f t w a r e &nbsp; d e v e l o p e r
+            <p className="text-blue-500 text-lg md:text-xl font-mono tracking-widest">
+              S o f t w a r e &nbsp; D e v e l o p e r
             </p>
           </div>
 

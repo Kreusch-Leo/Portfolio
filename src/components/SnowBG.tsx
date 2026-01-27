@@ -16,7 +16,7 @@ const flakes: Flake[] = Array.from({ length: 300 }).map(() => ({
 
 const SnowBG = () => {
   return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-indigo-950">
+    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-[#191F24]">
       {flakes.map((flake, i) => (
         <motion.div
           key={i}
