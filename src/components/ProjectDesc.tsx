@@ -1,6 +1,7 @@
 import { Github } from 'lucide-react';
 import { StackIcon } from '../components/icons/StackIcons';
 import type { StackIconName } from '../components/icons/stackIcons.registry';
+import TiltCard from './TiltCard';
 
 type ProjectDescProps = {
     title: string;
@@ -60,10 +61,9 @@ const ProjectDesc = ({
             {/* Image Preview */}
             <div className="w-full flex justify-center order-1 lg:order-2">
                 <div className="black-glass overflow-hidden rounded-xl border border-white/10 shadow-2xl">
-                    <img
+                    <TiltCard
                         src={imageUrl}
                         alt={`${title} project preview`}
-                        className="w-full h-auto object-cover"
                     />
                 </div>
             </div>
