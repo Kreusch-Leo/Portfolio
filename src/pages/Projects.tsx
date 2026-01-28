@@ -9,6 +9,7 @@ interface Project {
   desc: string;
   githubUrl?: string;
   version?: string;
+  stacks?: string[];
 }
 
 const Projects = () => {
@@ -45,6 +46,7 @@ useEffect(() => {
             imageUrl={project.imageUrl} 
             desc={project.desc} 
             githubUrl={project.githubUrl || ""}
+            stacks={project.stacks || []}
           />
         </GlassPlate>
       ))}
