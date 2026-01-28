@@ -1,14 +1,14 @@
 [
   {
     "title": "Personal Portfolio Website",
-    "imageUrl": "public/assets/portfolio.png",
+    "imageUrl": "assets/portfolio.png",
     "desc": "A personal portfolio website built with React, Tailwind CSS and Motion to showcase my projects and skills.",
     "githubUrl": "https://github.com/Kreusch-Leo/Portfolio",
     "version": "0.3.0"
   },
     {
         "title": "SAFE-ZONE",
-        "imageUrl": "public/assets/safe-zone.png",
+        "imageUrl": "assets/safe-zone.png",
         "desc": "A Game developed in pure C language using Allegro. Similar to Pitfall, the player must navigate through a scenario, avoiding obstacles and enemies to reach the safe zone.",
         "githubUrl": "https://github.com/Kreusch-Leo/safe-zone",
         "version": "2.1.0"
