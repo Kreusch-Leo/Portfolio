@@ -1,10 +1,11 @@
+import { motion } from 'motion/react';
+
 import NavBar from '../components/NavBar';
 import SocialButtons from '../components/Social';
 
-
 const Landing = () => {
   return (
-    <div className="min-h-screen w-screen text-white relative overflow-hidden font-sans selection:bg-blue-500 selection:text-white">
+    <div className="min-h-screen w-screen text-white relative overflow-visible font-sans selection:bg-blue-500 selection:text-white">
 
       {/* Navbar */}
         <NavBar />
@@ -32,20 +33,27 @@ const Landing = () => {
 
         {/* Right Column: Image */}
 <div className="flex-1 mt-12 md:mt-0 relative flex justify-center md:justify-end">
-          
-          {/* Added -mt-12 and md:-mt-24 to pull the image upward */}
           <div className="relative w-80 h-80 md:w-150 md:h-175 -mr-8 md:-mr-16 -mt-12 md:-mt-32 flex items-end">
             
-            <img 
-              src='assets/aime.png'
-              alt="Leo character" 
-              className="w-full h-full object-cover grayscale contrast-125 brightness-90"
-              style={{
-                // Adjusted to 80% to keep more of the image visible before the fade
-                maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',
-                WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)'
-              }}
-            />
+          <motion.img 
+            src='assets/allgreennoback.png'
+            alt="Leo character" 
+            className="w-full h-full object-cover contrast-125 brightness-90 scale-110 origin-bottom"
+            style={{
+              objectPosition: '50% 25%', 
+              maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',
+              WebkitMaskImage: 'linear-gradient(to bottom, black 95%, transparent 100%)'
+            }}
+
+            initial={{
+              filter: "saturate(25%) brightness(0.9)"
+            }}
+
+            whileHover={{ 
+              filter: "saturate(50%) brightness(1.1)"
+
+            }}
+          />
           </div>
         </div>
       </main>

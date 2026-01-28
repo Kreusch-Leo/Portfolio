@@ -10,9 +10,9 @@ const NavBar = () => {
         </div>
         
         <ul className="hidden md:flex gap-8 text-gray-300 text-lg font-medium">
-          <li className="hover:text-white cursor-pointer transition-colors bg-black/10 p-3 backdrop-blur-[2px] rounded-2xl border border-white/10"><Link to="/whoami">About</Link></li>
-          <li className="hover:text-white cursor-pointer transition-colors bg-black/10 p-3 backdrop-blur-[2px] rounded-2xl border border-white/10"><Link to="/projects">Projects</Link></li>
-          <li className="hover:text-white cursor-pointer transition-colors bg-black/10 p-3 backdrop-blur-[2px] rounded-2xl border border-white/10"><Link to="/contacts">Contacts</Link></li>
+          <li className="hover:text-white cursor-pointer black-thin-glass"><Link to="/whoami">About</Link></li>
+          <li className="hover:text-white cursor-pointer black-thin-glass"><Link to="/projects">Projects</Link></li>
+          <li className="hover:text-white cursor-pointer black-thin-glass"><Link to="/contacts">Contacts</Link></li>
         </ul>
       </nav>
     );
