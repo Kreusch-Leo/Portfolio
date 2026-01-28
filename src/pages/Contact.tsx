@@ -1,8 +1,9 @@
+import TiltCard from "../components/TiltCard";
+
 const Contacts = () => {
   return (
-    <div className="page">
-      <h1>Contacts Page</h1>
-      <p>This is the Contacts page content.</p>
+    <div className="bg-beige-900 w-screen min-h-screen flex justify-center items-center">
+    <TiltCard src={"assets/safe-zone.png"} alt={"Safe Zone"} />
     </div>
   )
 }       
