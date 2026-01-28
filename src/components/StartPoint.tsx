@@ -20,7 +20,7 @@ const StartPoint = () => {
   }, [step]);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-black">
+    <div className="relative w-screen h-screen  bg-black">
       <SnowBG />
       {/* Foreground pages container */}
       <div className="relative z-10 w-full h-full flex items-center justify-center">

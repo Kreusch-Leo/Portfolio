@@ -12,5 +12,4 @@ const WhoAmI = () => {
     );
 }
 
-
 export default WhoAmI;
