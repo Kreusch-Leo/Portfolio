@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import GlassPlate from "../components/GlassPlate";
 import ProjectDesc from "../components/ProjectDesc";
 import SnowBG from "../components/SnowBG";
+import NavBar from "../components/NavBar";
 
 interface Project {
   title: string;
@@ -37,8 +38,10 @@ useEffect(() => {
   if (loading) return <div className="text-white">Loading projects...</div>;
 
   return (
-    <div className="flex flex-col flex-wrap justify-center items-center gap-6 p-6 bg-black w-full min-h-screen">
+    <main>
+      <NavBar inMain={false}></NavBar>
       <SnowBG />
+    <div className="flex flex-col flex-wrap justify-center items-center gap-6 p-6 bg-black w-full min-h-screen">
       {projects.map((project, index) => (
         <GlassPlate key={index}>
           <ProjectDesc 
@@ -51,6 +54,7 @@ useEffect(() => {
         </GlassPlate>
       ))}
     </div>
+    </main>
   );
 };
 
