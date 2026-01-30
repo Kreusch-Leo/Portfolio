@@ -98,6 +98,10 @@
   @apply bg-black/10 backdrop-blur-[10px] rounded-2xl border border-white/10; 
 }
 
+.white-glass {
+  @apply bg-white/10 backdrop-blur-[10px] rounded-2xl border border-white/10; 
+}
+
 .black-thin-glass {
   @apply bg-black/10 rounded-2xl border border-white/10  p-3 backdrop-blur-[2px] transition-colors;
 }
