@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Computer Science B.Sc.",
+        "type": "education",
+        "date": "2024 - 2028 (expected)",
+        "imageUrl": "assets/bcc-thing.jpeg",
+        "description": "Federal University of Paraná. Studied core computer science concepts including algorithms, data structures, databases, and software engineering."
+    },
+    {
+        "id": 2,
+        "title": "Volunteer Burning Goose AeroDesign Team Embedded Systems Lead",
+        "type": "volunteer",
+        "date": "Apr 2024 - Oct 2025",
+        "imageUrl": "assets/bg-leaders.jpeg",
+        "description": "Led the embedded systems division of the university's AeroDesign team, overseeing the development of flight control systems and sensor integration for competitive radiocontrolled aircraft. Also collaborated with other divisions to ensure simulation performance and MDO analysis."
+    },
+    {
+        "id": 3,
+        "title": "Volunteer Ecomp Junior Enterprise HR Assessor",
+        "type": "volunteer",
+        "date": "Oct 2025 - current",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D5622AQHJlydiMFedoQ/feedshare-shrink_1280/B56Zp4mB_4JQAs-/0/1762959827782?e=1771459200&v=beta&t=FR5dRhO7ynIMDIKiZtND-AdLYaeBMOkV_6dJ33Pcaxg",
+        "description": "Assessed human resources processes and contributed to organizational development within the Ecomp Junior Enterprise, a student-run consultancy and software development firm."
+    },
+
+    {
+        "id": 4,
+        "title": "Michigan English Test C1 Certification",
+        "type": "education",
+        "date": "2025",
+        "imageUrl": "assets/met-score.png",
+        "description": "Achieved C1 level certification in English through the Michigan English Test, demonstrating advanced proficiency in reading and listening skills."
+    },
+        {
+        "id": 5,
+        "title": "Olimpíada Nacional de Ciências (ONC) Silver Medal",
+        "type": "education",
+        "date": "2022",
+        "imageUrl": "assets/onc-cert.jpg",
+        "description": "Awarded a Silver Medal (Medalha de Prata) in the 2022 National Science Olympiad (ONC) in Brazil. Recognized for high academic performance in Level D while attending Colégio Luterano Santíssima Trindade."
+    },
+    {
+        "id": 6,
+        "title": "High School Diploma",
+        "type": "education",
+        "date": "2021 - 2023",
+        "imageUrl": "assets/santissima-cert.jpg",
+        "description": "Colégio Luterano Santíssima Trindade. Completed high school with a focus on science and mathematics, achieving strong academic performance."
+    }
+]
