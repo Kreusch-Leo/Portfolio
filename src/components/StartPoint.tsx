@@ -23,7 +23,7 @@ const StartPoint = () => {
     <div className="relative w-screen h-screen  bg-black">
       <SnowBG />
       {/* Foreground pages container */}
-      <div className="relative z-10 w-full h-full flex items-center justify-center">
+      <div className="relative z-5 w-full h-full flex items-center justify-center">
         <AnimatePresence mode="wait">
           {step === 1 && ( <Welcome />)},
           {step === 2 && ( <Landing />)}

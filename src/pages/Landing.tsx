@@ -11,7 +11,7 @@ const Landing = () => {
         <NavBar inMain={true} />
 
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col md:flex-row items-center justify-between px-8 md:px-16 mt-10 md:mt-20 max-w-7xl mx-auto bg-black/5 backdrop-blur-[2px] border border-white/10 rounded-2xl py-12 md:py-16">
+      <main className="relative z-5 flex flex-col md:flex-row items-center justify-between px-8 md:px-16 mt-10 md:mt-20 max-w-7xl mx-auto bg-black/5 backdrop-blur-[2px] border border-white/10 rounded-2xl py-12 md:py-16">
         
         {/* Left Column: Text */}
         <div className="flex-1 space-y-6 md:space-y-8 text-center md:text-left">

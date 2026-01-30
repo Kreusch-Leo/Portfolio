@@ -10,7 +10,7 @@ type TypeLineProps = {
 
 const TypeLine = ({ text, controls, initialOpacity = 1 }: TypeLineProps) => (
 	<motion.h1
-		className="text-6xl text-gray-50 font-serif overflow-hidden whitespace-nowrap"
+		className="text-6xl text-gray-50 font-serif overflow-hidden whitespace-nowrap border-r-4 border-blue-500 pr-2"
 		initial={{ width: 0, opacity: initialOpacity }}
 		animate={controls}
 	>
