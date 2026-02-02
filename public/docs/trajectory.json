@@ -39,13 +39,5 @@
         "date": "2022",
         "imageUrl": "assets/onc-cert.jpg",
         "description": "Awarded a Silver Medal (Medalha de Prata) in the 2022 National Science Olympiad (ONC) in Brazil. Recognized for high academic performance in Level D while attending Colégio Luterano Santíssima Trindade."
-    },
-    {
-        "id": 6,
-        "title": "High School Diploma",
-        "type": "education",
-        "date": "2021 - 2023",
-        "imageUrl": "assets/santissima-cert.jpg",
-        "description": "Colégio Luterano Santíssima Trindade. Completed high school with a focus on science and mathematics, achieving strong academic performance."
     }
 ]
